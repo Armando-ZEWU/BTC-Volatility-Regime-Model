@@ -5,7 +5,7 @@ Code, data and outputs for the working paper *Predicting a Bitcoin Price Range: 
 The paper applies, out of sample, the Markov-switching GARCH price-range pipeline built on EUR/USD to BTC-USD, and asks whether a one-day price range can be built and calibrated, and what an analyst of the market can use it for. It does not propose a new method and makes no claim of discovery.
 
 - **Paper:** SSRN link to be added once posted.
-- **Companion paper (EUR/USD):** Zewu, A. Y. I. (2026), *Quantitative Modeling of EUR/USD Exchange Rate Volatility*, SSRN Working Paper No. 7532760.
+- **Companion paper (EUR/USD):** Armand ZEWU Yawo Isaac (2026), *Quantitative Modeling of EUR/USD Exchange Rate Volatility*, SSRN Working Paper No. 7532760.
 
 ## Main results
 
