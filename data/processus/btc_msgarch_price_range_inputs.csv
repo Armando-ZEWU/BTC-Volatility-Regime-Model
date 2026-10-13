@@ -1,0 +1,2 @@
+"last_date","last_price","confidence_level","return_q_low","return_q_high","return_q_low_99","return_q_high_99","vol_forecast","prob_volatil_next","prob_calme_next","init_used"
+"2026-09-28",83502.609375,0.95,-4.11172798587952,4.0992282548608,-8.14117873365023,8.12867900263151,2.69389369143972,0.148144334645816,0.851855665354184,"uncond"

@@ -1,0 +1,16 @@
+"modele","tercile_largeur","n","depassements","couverture","kupiec_p"
+"MS-GARCH (K=2)","etroit",1065,60,0.9437,0.352
+"MS-GARCH (K=2)","moyen",1064,57,0.9464,0.597
+"MS-GARCH (K=2)","large",1064,39,0.9633,0.036
+"GARCH-t (K=1)","etroit",1065,86,0.9192,0
+"GARCH-t (K=1)","moyen",1064,80,0.9248,0
+"GARCH-t (K=1)","large",1064,47,0.9558,0.374
+"EWMA Normale","etroit",1065,99,0.907,0
+"EWMA Normale","moyen",1064,59,0.9445,0.422
+"EWMA Normale","large",1064,49,0.9539,0.55
+"EWMA + FHS","etroit",1065,81,0.9239,0
+"EWMA + FHS","moyen",1064,56,0.9474,0.696
+"EWMA + FHS","large",1064,32,0.9699,0.001
+"Simulation historique 365 j","etroit",1068,62,0.9419,0.239
+"Simulation historique 365 j","moyen",1080,62,0.9426,0.275
+"Simulation historique 365 j","large",1045,35,0.9665,0.009

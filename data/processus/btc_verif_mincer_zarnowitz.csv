@@ -1,0 +1,6 @@
+"modele","pente","t_HAC","R2"
+"MS-GARCH (K=2)",0.297,15.7,0.0852
+"GARCH-t (K=1)",0.271,11.2,0.0832
+"EWMA Normale",0.283,11.9,0.0876
+"EWMA + FHS",0.257,12.5,0.084
+"Simulation historique 365 j",0.234,6.8,0.031
