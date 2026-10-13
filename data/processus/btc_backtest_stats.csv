@@ -1,0 +1,72 @@
+bloc,mesure,valeur
+wilson,taux de depassement 95%,0.04885687441277795
+wilson,IC95 taux 95% (bas),0.041906721276867384
+wilson,IC95 taux 95% (haut),0.056891252580685656
+wilson,IC95 couverture 95% (bas),0.9431087474193144
+wilson,IC95 couverture 95% (haut),0.9580932787231327
+wilson,taux de depassement 99%,0.00845599749451926
+wilson,IC95 taux 99% (bas),0.005818029430464536
+wilson,IC95 taux 99% (haut),0.012275285369555937
+wilson,IC95 couverture 99% (bas),0.9877247146304441
+wilson,IC95 couverture 99% (haut),0.9941819705695355
+symetrie,depassements bas 95%,72.0
+symetrie,depassements haut 95%,84.0
+symetrie,p binomial bilateral (bas = haut),0.3785370170481047
+fold,2018 Kupiec p 95%,0.18681716787663288
+fold,2018 attendus 95%,18.25
+fold,2018 binomial unilateral p 99% (P[X>=x]),0.49605021588456816
+fold,2018 attendus 99%,3.65
+fold,2019 Kupiec p 95%,0.7614718815746521
+fold,2019 attendus 95%,18.25
+fold,2019 binomial unilateral p 99% (P[X>=x]),0.30280735800007835
+fold,2019 attendus 99%,3.65
+fold,2020 Kupiec p 95%,0.573303668414441
+fold,2020 attendus 95%,18.3
+fold,2020 binomial unilateral p 99% (P[X>=x]),0.7091725324088881
+fold,2020 attendus 99%,3.66
+fold,2021 Kupiec p 95%,0.8579584425524407
+fold,2021 attendus 95%,18.25
+fold,2021 binomial unilateral p 99% (P[X>=x]),0.707442955448817
+fold,2021 attendus 99%,3.65
+fold,2022 Kupiec p 95%,0.6787515033591194
+fold,2022 attendus 95%,18.25
+fold,2022 binomial unilateral p 99% (P[X>=x]),0.03221730569842147
+fold,2022 attendus 99%,3.65
+fold,2023 Kupiec p 95%,0.8579584425524407
+fold,2023 attendus 95%,18.25
+fold,2023 binomial unilateral p 99% (P[X>=x]),0.8804006514559285
+fold,2023 attendus 99%,3.65
+fold,2024 Kupiec p 95%,0.942492040511221
+fold,2024 attendus 95%,18.3
+fold,2024 binomial unilateral p 99% (P[X>=x]),1.0
+fold,2024 attendus 99%,3.66
+fold,2025 Kupiec p 95%,0.030816628131212283
+fold,2025 attendus 95%,18.25
+fold,2025 binomial unilateral p 99% (P[X>=x]),1.0
+fold,2025 attendus 99%,3.65
+fold,2026 Kupiec p 95%,0.8773764596219422
+fold,2026 attendus 95%,13.55
+fold,2026 binomial unilateral p 99% (P[X>=x]),0.7546962059345743
+fold,2026 attendus 99%,2.71
+homogeneite,chi2 95%,6.497345450365399
+homogeneite,df 95%,9.0
+homogeneite,p 95%,0.6892928183410911
+homogeneite,chi2 99%,14.33716997664434
+homogeneite,df 99%,9.0
+homogeneite,p 99%,0.11082678697996833
+homogeneite,ecart-type des couvertures annuelles 95% (points),1.021174694670728
+homogeneite,"bruit binomial attendu, 365 jours (points)",1.1407759916011988
+fenetre 2024-2025,jours,731.0
+fenetre 2024-2025,depassements 99%,0.0
+fenetre 2024-2025,attendus 99%,7.3100000000000005
+fenetre 2024-2025,P(aucun depassement 99%) sous le modele,0.0006446548446905096
+direction,paires de meme signe (hors rendement nul),2111.0
+direction,paires retenues,4391.0
+direction,part de meme signe,0.4807560920063767
+direction,p binomial bilateral,0.011227063811767662
+direction,tendance 20j -> signe : succes,1616.0
+direction,tendance 20j -> signe : jours,3193.0
+direction,tendance 20j -> signe : part,0.5061071093015972
+direction,tendance 20j -> signe : p binomial bilateral,0.5012795963821641
+direction,part de jours haussiers (backtest),0.5092389602254933
+direction,rendement moyen du backtest (%/jour),0.05558130394993271

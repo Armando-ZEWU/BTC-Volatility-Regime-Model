@@ -1,0 +1,90 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objective}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Questions, results and contribution}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Design: what was fixed before, and what was not}{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Scope and limits}{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Structure of the paper}{9}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Data and quality control}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Source and pipeline}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Quality checks}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Descriptive statistics}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Stationarity and ARCH effects}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Volatility by calendar year}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Single-regime GARCH(1,1): Normal versus Student's $t$}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objective and specification}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Results}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Persistence at the boundary}{15}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}A tail parameter of 3.18: infinite kurtosis and the reliability of the tests}{16}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}The largest shock and the shape of the tails}{17}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}The mean}{17}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}A hypothesis to test, not a conclusion}{17}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Limits of this step}{18}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Markov-Switching GARCH ($K=2$)}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Objective and specification}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Finding the optimum: sensitivity to the starting point}{19}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Results}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Identification of the regimes}{21}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Comparison with the single-regime GARCH}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}What ``volatile'' and ``calm'' mean}{23}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Reference points with EUR/USD}{23}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Flags and limits}{24}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Regime or era?}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}The risk and the rule}{24}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Result of the rule}{25}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}A complementary check: before and after 2020-09-22}{26}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Interpretation}{27}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Conclusion for the study and limits}{27}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Operational price range}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Objective}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Method and differences with EUR/USD}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Result: the forecast for 2026-09-29}{29}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Validation of the variance recursion}{29}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}The range of each regime (each taken as certain)}{30}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}The 95\,\% band against the Normal}{30}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Mixture quantiles: \texttt {Risk()} against the exact solution}{31}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Limits}{31}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Shock test: January--April 2020}{32}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objective and design}{32}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The model before 2020}{32}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Coverage: 121 forecasts, none missing}{33}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The breaches at 95\,\%}{33}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}The forecast of 2020-03-14}{34}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Intraday diagnostic (95\,\%, not decisive)}{34}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Limits}{35}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Full expanding-window backtest (2018--2026)}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Objective and criteria}{35}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Design}{36}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Main result}{36}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Results by fold}{38}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}What the sub-periods show (exploratory, not corrected for multiple comparisons)}{39}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Evolution of the parameters across folds}{40}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}The day of the fallback}{42}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Reference points with EUR/USD}{42}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}What the PASS does not say}{43}{subsection.8.9}%
+\contentsline {section}{\numberline {9}Benchmarks: does the regime layer improve the range?}{44}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Questions and design}{44}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}(A) The MS-GARCH against simple models}{45}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}(B1) Coverage by tercile of band width}{47}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}(B2) Does the width follow the size of the day's move?}{47}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}(C) Size of the breaches}{48}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}(D) Direction}{49}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}What to retain}{49}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Limits}{50}{subsection.9.8}%
+\contentsline {section}{\numberline {10}General conclusion}{50}{section.10}%
+\contentsline {subsection}{\numberline {10.1}The answer to the question}{50}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}What the study shows}{51}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}What the study does not show}{51}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Limits}{52}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Further work}{52}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Transparency}{53}{subsection.10.6}%
+\contentsline {section}{References}{54}{subsection.10.6}%
+\contentsline {section}{\numberline {A}Supplementary figures}{56}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Smoothed and filtered probability, March 2020}{56}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Share of volatile days by year}{57}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Regime label and realised volatility}{58}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Returns by regime}{58}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Distribution of returns by regime}{59}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Tail index}{60}{subsection.A.6}%
+\contentsline {section}{\numberline {B}Traceability: results, output files and scripts}{60}{appendix.B}%
+\contentsline {section}{\numberline {C}Corrections log}{62}{appendix.C}%

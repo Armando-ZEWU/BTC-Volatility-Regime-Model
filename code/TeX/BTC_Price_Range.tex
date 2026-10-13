@@ -188,7 +188,7 @@
 				\\An Out-of-Sample Test}\\[0.4em] 
 			{\fontsize{20}{26}\selectfont\color{white!95} An out-of-sample application of a Markov-switching GARCH pipeline, built on EUR/USD, to BTC-USD, 2018--2026.}\\[1.8cm]
 			
-			{\fontsize{16}{20}\selectfont\bfseries\color{white} Armand Zewu Y.~I.}\\[4pt]
+			{\fontsize{16}{20}\selectfont\bfseries\color{white} Armand Zewu Yawo Isaac.}\\[4pt]
 			{\fontsize{11}{15}\selectfont\color{white!85} Undergraduate Student in International Economics}
 		};
 		
@@ -202,7 +202,7 @@
 				left=8pt, right=8pt, top=6pt, bottom=6pt
 				]
 				{\footnotesize\color{black}\textbf{Keywords:} Bitcoin, Markov-switching GARCH, price range, interval forecast, out-of-sample backtesting, heavy tails, time-series econometrics}\\[3pt]
-				{\footnotesize\color{black}\textbf{JEL Classification:} C22, C52, C53, G17}
+				{\footnotesize\color{black}\textbf{JEL Classification:}  C22, C32, C53, C58, F31, G17}
 			\end{tcolorbox}
 		};
 		
@@ -942,9 +942,9 @@ The last observation is 2026-09-28, with a close of \$83,502.61.
 		P(volatile regime tomorrow) / P(calm regime tomorrow) & $14.8\,\%$ / $85.2\,\%$ \\
 		Forecast volatility (mixture) & $2.694\,\%$/day ($\approx 51\,\%$ annualised, 365-day basis) \\
 		\textbf{95\,\% range, return} & $-4.112\,\%$ / $+4.099\,\%$ \\
-		\textbf{95\,\% range, price} & \textbf{\$80,139 to \$86,997} \\
+		\textbf{95\,\% range, price} & [\textbf{\$80,139 ; \$86,997}] \\
 		Width at 95\,\% & \$6,858 ($8.21\,\%$ of the price) \\
-		99\,\% range (diagnostic), price & \$76,974 to \$90,574 (width $16.29\,\%$) \\
+		99\,\% range (diagnostic), price & [\$76,974 ; \$90,574] (width $16.29\,\%$) \\
 		Ratio of widths 99\,\%/95\,\% & $1.98$ (Normal: $1.31$) \\
 		\bottomrule
 	\end{tabular}
@@ -1637,7 +1637,7 @@ The record of what was fixed before and after the data (Table~\ref{tab:status}) 
 \addcontentsline{toc}{section}{References}
 \begin{thebibliography}{99}
 	\bibitem[Zewu(2026)]{ZEWU2026fx}
-	Zewu, A.~Y.~I. (2026). Quantitative Modeling of EUR/USD Exchange Rate Volatility. \textit{SSRN Working Paper} No.~7532760.
+	Armand Zewu,.~Y.~I. (2026). Quantitative Modeling of EUR/USD Exchange Rate Volatility. \textit{SSRN Working Paper} No.~7532760.
 
 	\bibitem[Ardia et al.(2018)]{ardia2018}
 	Ardia, D., Bluteau, K., Boudt, K., \& Catania, L. (2018). Forecasting risk with Markov-switching GARCH models: A large-scale performance study. \textit{International Journal of Forecasting}, 34(4), 733--747.
@@ -1832,11 +1832,15 @@ Every figure quoted in the text comes from an output file, not from memory. The 
 		\addlinespace
 		Benchmarks, terciles, regression, breach size, direction (Tables~\ref{tab:bm-95}--\ref{tab:bm-direction}) & \texttt{btc\_\allowbreak{}verif\_\allowbreak{}benchmarks.csv}\newline \texttt{btc\_\allowbreak{}verif\_\allowbreak{}conditional\_\allowbreak{}terciles.csv}\newline \texttt{btc\_\allowbreak{}verif\_\allowbreak{}mincer\_\allowbreak{}zarnowitz.csv}\newline \texttt{btc\_\allowbreak{}verif\_\allowbreak{}breach\_\allowbreak{}size.csv}\newline \texttt{btc\_\allowbreak{}verif\_\allowbreak{}direction.csv} & \texttt{verification\_\allowbreak{}btc.R} \\
 		\addlinespace
+				Complementary statistics: Wilson interval, symmetry, tests by fold, homogeneity, direction counts & \texttt{btc\_\allowbreak{}backtest\_\allowbreak{}stats.csv} & \texttt{backtest\_\allowbreak{}stats\_\allowbreak{}btc.py} \\
+		\addlinespace
+		Realised standard deviation by regime and fold (Table~\ref{tab:bt-sigma}) & \texttt{btc\_\allowbreak{}sigma\_\allowbreak{}by\_\allowbreak{}regime\_\allowbreak{}by\_\allowbreak{}fold.csv} & \texttt{Sigma\_\allowbreak{}by\_\allowbreak{}regime\_\allowbreak{}by\_\allowbreak{}fold.R} \\
+		\addlinespace
 		\bottomrule
 	\end{tabular}
 \end{table}
 
-\todo{Three groups of numbers have no output file or script documented in the project, and must be given one before submission: (i) the Wilson interval, the test of homogeneity of the annual breach rates and the direction counts of the backtest (computed from \texttt{btc\_\allowbreak{}backtest\_\allowbreak{}daily.csv}); (ii) the realised standard deviation by regime and by fold (\texttt{btc\_\allowbreak{}sigma\_\allowbreak{}by\_\allowbreak{}regime\_\allowbreak{}by\_\allowbreak{}fold.csv}, Table~\ref{tab:bt-sigma}); (iii) the parameters $\omega,\alpha,\beta$ of the pre-2020 model, which are not in any output file.}
+The pre-2020 model of section~\ref{sec:shock} is the same fit as the 2020 fold of the backtest: its parameters are in \texttt{btc\_\allowbreak{}backtest\_\allowbreak{}par\_\allowbreak{}2020.csv} (and in \texttt{btc\_\allowbreak{}covid\_\allowbreak{}pre2020\_\allowbreak{}par.rds}).
 
 % ═════════════════════════════════════════════════════════════════
 \section{Corrections log}

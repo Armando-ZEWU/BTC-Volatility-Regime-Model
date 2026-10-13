@@ -40,6 +40,7 @@ graphs/    figures (labels in French)
 | 5. One-day price range | `ms_garch_forecast_btc.R`, then `price_range_btc.py` | `btc_price_range_output.csv`, `btc_msgarch_price_range_inputs.csv`, `btc_msgarch_mixture_check.csv` | `btc2_05_price_range.md` |
 | 6. Shock test, Jan–Apr 2020 | `covid_shock_test_btc.R` | `btc_covid_*.csv` | `btc2_06_shock_test.md` |
 | 7. Expanding-window backtest | `full_backtest_btc.R` | `btc_backtest_daily.csv`, `btc_backtest_summary.csv`, `btc_backtest_fold_summary.csv`, `btc_backtest_params.csv` | `btc2_07_backtest.md` |
+| 7b. Complementary backtest statistics | `backtest_stats_btc.py` | `btc_backtest_stats.csv` | `btc2_07_backtest.md` |
 | 8. Benchmarks and direction | `verification_btc.R` | `btc_verif_*.csv` | `btc2_08_verification.md` |
 
 `msgarch_utils_btc.R` holds the functions shared by steps 6 and 7 (fit with several starting points, one-day forecast with an exact-mixture fallback, Kupiec and Christoffersen tests).
